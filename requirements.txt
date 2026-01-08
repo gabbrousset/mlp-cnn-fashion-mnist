@@ -1,0 +1,7 @@
+# Data handling
+numpy>=1.24
+# Visuals
+matplotlib>=3.7
+# CNN and pre-built model implementation
+torch>=2.1
+torchvision>=0.16

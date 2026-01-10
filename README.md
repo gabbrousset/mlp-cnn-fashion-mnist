@@ -11,14 +11,25 @@ McGill COMP 551 - Mini-Project 3: Implementing Multi-Layer Perceptrons (MLP) fro
 pip install -r requirements.txt
 ```
 
-## Running the Code
+![](figures/comparison-mlp-cnn-resnet.png)
+
+## Project
 The notebook is structured in 4 main tasks:
 * Task 1: Obtaining and cleaning data
-  * PCA, whitening, data augmentation
+![training-samples](figures/raw-training-samples.png)
+  * Whitening
+    * ![pca-reconstructions](figures/pca-reconstructions.png)
+  * PCA
+    * ![preprocessed-example](figures/preprocessed-example.png)
+  * Data augmentation
+    * ![augmented-samples](figures/augmented-samples.png)
 * Task 2: MLP implementation from scratch
+  * ![models-performance-comparison](figures/models-performance-comparison.png)
 * Task 3: Running the experiments
   * Regularization
   * CNN comparison
+    * ![cnn-comparison](figures/cnn-accuracy-train-time.png)
   * ResNet18 comparison (transfer learning)
 
+## Running the Code
 Launch the Jupyter Notebook / JupyterLab from your terminal (or use PyCharm/VSCode) and click run, all the tests will start running automatically
